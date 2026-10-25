@@ -1,0 +1,15 @@
+# Language detection rules
+*.min.css linguist-generated
+
+*.htm linguist-vendored 
+
+*.svg text
+Cargo.lock linguist-generated
+*.map linguist-generated
+*.ico binary
+src/*.ts linguist-detectable
+
+*.gif binary
+*.woff2 binary
+public/*.html linguist-vendored
+# eof 98d2107f
